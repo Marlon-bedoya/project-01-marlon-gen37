@@ -1,0 +1,40 @@
+.app__phrase{
+    display: grid;
+    place-items: center;
+    margin-bottom: 2rem;
+    margin-left: 10rem;
+    margin-right: 10rem ;
+    background-image: linear-gradient(
+        120deg,
+        rgba(85, 8, 8, 0.815),
+        rgba(255, 0, 0, 0.857),
+        rgba(94, 5, 5, 0.771)
+    ) ;
+    padding: 1.5em 2.5em;
+    gap: 1em;
+    border-radius: 1em;
+    box-shadow: 0.1em 0.25em 0.3em rgba(80, 2, 45, 0.743);
+    text-align: center;
+  }
+
+  .Card__phrases{
+    font-size: 22px;
+  }
+
+  /* Media queries para dispositivos móviles */
+@media only screen and (max-width: 600px) {
+    .app__phrase {
+        margin-left: 2rem;
+        margin-right: 2rem;
+        font-size: 18px;
+    }
+}
+
+/* Media queries para monitores grandes */
+@media only screen and (min-width: 1200px) {
+    .app__phrase {
+        margin-left: 20rem;
+        margin-right: 20rem;
+        font-size: 26px;
+    }
+}

@@ -1,0 +1,44 @@
+
+button{
+    border: 1px solid yellowgreen;   
+    background-image: linear-gradient(
+        140deg,
+        rgba(1, 41, 242, 0.851),
+        rgb(36, 154, 1),
+        rgba(0, 58, 231, 0.711)
+    ) ;
+    border-radius: 8px;
+    color: rgb(251, 250, 255);
+    display: flex;
+    font-size: 18px;
+    padding: 4px;
+    cursor: pointer;
+    transition: .3s;
+    box-shadow: 0px 0.4px 10px rgb(2, 65, 255)
+}
+
+
+button:active{
+    transform: scale(0.9);
+}
+    
+
+.app__Buttom{
+    display: grid;
+    place-items: center;
+    text-shadow: 0.1px 0.1px 0.1rem rgb(0, 0, 0);
+}
+
+/* Media query para dispositivos móviles */
+@media only screen and (max-width: 768px) {
+    button {
+        font-size: 20px; 
+    }
+}
+
+/* Media query para monitores grandes */
+@media only screen and (min-width: 1024px) {
+    button {
+        font-size: 30px; 
+    }
+}
